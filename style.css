@@ -1,0 +1,482 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600;700;800;900&family=Roboto:wght@400;500;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600;700;900&display=swap');
+
+/* html {
+  }
+ */
+
+*{
+    margin: 0;
+    outline: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: Raleway;
+    overflow-x: hidden;
+}
+
+.one{
+    height: 800px;
+    background: #636c79;
+}
+
+.one .navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo{
+    height: 50px;
+    position: relative;
+    left: 120px;
+    top: 45px;
+}
+
+.nav-items{
+    list-style-type: none;
+    display: inline-block;
+    color: #ffffff;
+    padding-right: 50px;
+    font-weight: 500;
+    position: relative;
+    left: 150px;
+    top: 35px;
+}
+
+.first{
+    position: relative;
+    right: 100px;
+    top: 35px;
+    background: transparent;
+    color: #ffffff;
+    font-weight: 600;
+    padding: 15px 50px;
+    border: 1px solid #ffffff;
+    font-size: 15px;
+}
+
+.img-1{
+    background-image: url(./images/pexels-fauxels-3183197.jpg);
+    height: 500px;
+    width: 400px;
+    background-size: cover;
+    background-position:center;
+    position: relative;
+    left: 180px;
+    top: 100px;
+}
+
+.heading-1{
+    font-size: 50px;
+    color: #ffffff;
+    position: relative;
+    left: 800px;
+    top: -360px;
+}
+
+.para-1{
+    position: relative;
+    left: 800px;
+    top: -350px;
+    color:#c4c8cd;
+    font-size: 19px;
+    line-height: 40px;
+}
+
+.inpot{
+    background-color: #ffffff;
+    width: 600px;
+    height: 65px;
+    position: relative;
+    left: 800px;
+    top: -300px;
+}
+
+input{
+    border: none;
+    padding-top: 25px;
+    font-size: 17px;
+    padding-left: 25px;
+}
+
+.inpot img{
+    padding-left: 25px;
+}
+
+.second{
+    background-color: #8bb7a2;
+    border: none;
+    padding: 17px 50px;
+    color: #ffffff;
+    font-weight: 600;
+    font-size: 20px;
+    position: relative;
+    left: 1207px;
+    top: -361px;
+}
+
+.heading-2 h1{
+    font-size: 45px;
+    text-align: center;
+    position: relative;
+    top: 100px;
+    left: 40px;
+}
+
+.sub-head{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    top: 180px;
+    left: 170px;
+}
+
+.sub-head1{
+    font-size: 45px;
+    margin-right: 130px;
+    font-family: Work Sans;
+}
+
+.sub-para{
+    position: relative;
+    top: 70px;
+    left: -250px;
+    font-size: 20px;
+    color: #626262;
+    font-family: Work Sans;
+    font-weight: 600;
+}
+
+.para1{
+    margin-left: -20px;
+}
+
+.para2{
+    margin-left: -20px;
+}
+
+.para3{
+    margin-left: 30px;
+}
+
+.para4{
+    margin-left: -20px;
+}
+
+.sectwo-img{
+    position: relative;
+    top: 300px;
+    left: 140px;
+    width: 1300px;
+    height: 650px;
+    background-image: url(./images/pexels-fauxels-3184325.jpg);
+    background-size: cover;
+    background-position: contain;   
+}
+
+.heading-3{
+    font-size: 45px;
+    text-align: center;
+    position: relative;
+    top: 500px;
+    left: 10px;
+}
+
+.heading-2-1{
+    font-size: 40px;
+    position: relative;
+    top: 650px;
+    left: 170px;
+}
+
+
+.para-3{
+    position: relative;
+    top: 680px;
+    left: 170px;
+    color: #5d5f62;
+    font-size: 20px;
+    line-height: 40px;
+}
+
+.third{
+    background-color: #8bb7a2;
+    border: none;
+    padding: 17px 50px;
+    color: #ffffff;
+    font-weight: 600;
+    font-size: 20px;
+    position: relative;
+    top: 720px;
+    left: 170px;
+}
+
+.sectionthird-img{
+    background-image: url(./images/pexels-fauxels-3184405.jpg);
+    height: 600px;
+    width: 600px;
+    background-size: cover;
+    background-position:right;
+    position: relative;
+    top: 300px;
+    left: 810px;
+}
+
+.secfour-img{
+    background-image: url(./images/pexels-fauxels-3184603.jpg);
+    height: 600px;
+    width: 600px;
+    background-size: cover;
+    background-position:top;
+    position: relative;
+    top: 400px;
+    left: 170px;
+}
+
+.heading-4{
+    font-size: 45px;
+    position: relative;
+    top: -100px;
+    left: 820px;
+}
+
+.para-4{
+    position: relative;
+    top: -70px;
+    left:820px;
+    color: #5d5f62;
+    font-size: 20px;
+    line-height: 40px;
+}
+
+.fourth{
+    background-color: #8bb7a2;
+    border: none;
+    padding: 17px 50px;
+    color: #ffffff;
+    font-weight: 600;
+    font-size: 20px;
+    position: relative;
+    top: -30px;
+    left: 820px;
+}
+
+.heading-5{
+    font-size: 45px;
+    position: relative;
+    top: 300px;
+    left: 170px;
+}
+
+.para-5{
+    position: relative;
+    top: 330px;
+    left: 170px;
+    color: #5d5f62;
+    font-size: 20px;
+    line-height: 40px;
+}
+
+.fifth{
+    background-color: #8bb7a2;
+    border: none;
+    padding: 17px 50px;
+    color: #ffffff;
+    font-weight: 600;
+    font-size: 20px;
+    position: relative;
+    top: 400px;
+    left: 170px;
+}
+
+.secfive-img{
+    background-image: url(./images/pexels-linkedin-sales-navigator-2182969.jpg);
+    height: 600px;
+    width: 600px;
+    background-size: cover;
+    background-position:right;
+    position: relative;
+    top: -80px;
+    left: 810px;
+}
+
+.heading-6{
+    font-size: 45px;
+    position: relative;
+    left: 170px;
+    top: 150px;
+}
+
+.para-6{
+    position: relative;
+    top: 40px;
+    left: 810px;
+    color: #5d5f62;
+    font-size: 20px;
+    line-height: 40px;
+}
+
+.team-section{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    position: relative;
+    top: 150px;
+}
+
+.sectionfirst .team-member-img{
+    background-image: url(./images/pexels-mikhail-nilov-8937870.jpg);
+    width: 400px;
+    height: 500px;
+    background-size: cover;
+    background-position: top;
+    position: relative;
+    left: 100px;
+}
+
+.sectionsecond .team-member-img{
+    background-image: url(./images/pexels-precious-judah-9154594.jpg);
+    width: 400px;
+    height: 500px;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    left: 10px;
+}
+
+.sectionthird .team-member-img{
+    background-image: url(./images//pexels-christina-morillo-1181424.jpg);
+    width : 400px;
+    height: 500px;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    left: -80px;
+}
+
+.laste{
+    margin-top: 30px;
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.para-7{
+    color: #797b7d;
+    margin-top: 20px;
+    font-size: 18px;
+}
+
+.sectionfirst .laste, .sectionfirst .para-7{
+    position: relative;
+    left: 100px;
+}
+
+.sectionsecond .laste, .sectionsecond .para-7{
+    position: relative;
+    left: 10px;
+}
+
+.sectionthird .laste, .sectionthird .para-7{
+    position: relative;
+    left: -80px;
+}
+
+.sixth{
+    background-color: #8bb7a2;
+    border: none;
+    padding: 17px 50px;
+    color: #ffffff;
+    font-weight: 600;
+    font-size: 20px;
+    position: relative;
+    top: 250px;
+    left: 670px;
+}
+
+footer{
+    height: 600px;
+    background: #10181d;
+    position: relative;
+    top: 400px;
+}
+
+.logof{
+    height: 50px;
+    position: relative;
+    left: 130px;
+    top: 65px;
+}
+
+.icons{
+    position: relative;
+    left: 1100px;
+    top: 25px;
+}
+
+.line{
+    background-color: #ffffff;
+    width: 1280px;
+    height: 1px;
+    position: relative;
+    top: 70px;
+    left: 130px;
+}
+
+.end{
+    color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    position: relative;
+    left: 100px;
+    top: 150px;
+}
+
+.end ul{
+    list-style-type: none;
+}
+
+.end h1{
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+.last-items{
+    color: #919497;
+    line-height: 50px;
+    font-size: 15px;
+}
+
+.products{
+    position: relative;
+    left: -60px;
+}
+
+.features{
+    position: relative;
+    left: -60px;
+}
+
+.resources{
+    position: relative;
+    left: -100px;
+}
+
+.companys{
+    position: relative;
+    left: -110px;
+}
+
+.fav-things{
+    position: relative;
+    left: -120px;
+}
+
+button,li {
+    cursor: pointer;
+  }
